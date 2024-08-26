@@ -1,0 +1,16 @@
+2022-08-30 12:38:40,494 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:38:40,497 ERROR c.d.e.e.Account [main] withdraw is in error condition : {}
+com.demo.exception.ex1.LowBalanceException: Account has low balance
+	at com.demo.exception.ex1.Account.withdraw(Account.java:42) ~[classes/:?]
+	at com.demo.exception.ex1.BankMain.main(BankMain.java:19) ~[classes/:?]
+2022-08-30 12:46:57,547 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:46:57,549 ERROR c.d.e.e.Account [main] withdraw is in error condition : {}
+com.demo.exception.ex1.LowBalanceException: Account has low balance
+	at com.demo.exception.ex1.Account.withdraw(Account.java:42) ~[classes/:?]
+	at com.demo.exception.ex1.BankMain.main(BankMain.java:19) ~[classes/:?]
+2022-08-30 12:47:46,750 INFO c.d.e.e.Account [main] Account Balance updated
+2022-08-30 12:47:52,684 ERROR c.d.e.e.Account [main] balance is low in the account
+2022-08-30 12:47:52,685 ERROR c.d.e.e.Account [main] withdraw is in error condition : {}
+com.demo.exception.ex1.LowBalanceException: Account has low balance
+	at com.demo.exception.ex1.Account.withdraw(Account.java:42) ~[classes/:?]
+	at com.demo.exception.ex1.BankMain.main(BankMain.java:19) ~[classes/:?]

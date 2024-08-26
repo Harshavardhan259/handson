@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.demo.app.CounterDemoTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+com.demo.app.CounterDemoTest.testDecrement2times()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.demo.app.CounterDemo.decrement()" because "this.counter" is null
+	at com.demo.app.CounterDemoTest.testDecrement2times(CounterDemoTest.java:33)
+
+com.demo.app.CounterDemoTest.testIncrement2times()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.demo.app.CounterDemo.increment()" because "this.counter" is null
+	at com.demo.app.CounterDemoTest.testIncrement2times(CounterDemoTest.java:25)
+
